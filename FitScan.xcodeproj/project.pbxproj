@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C40564412B76E18A002A2BFC /* HealthKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40564402B76E18A002A2BFC /* HealthKitManager.swift */; };
+		C40564432B76E574002A2BFC /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40564422B76E574002A2BFC /* SummaryView.swift */; };
+		C40564482B76ECE3002A2BFC /* RingShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40564472B76ECE3002A2BFC /* RingShape.swift */; };
+		C405644A2B76EE3E002A2BFC /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C40564492B76EE3E002A2BFC /* RingView.swift */; };
+		C41270532B715A01003C6DDF /* ScannedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41270522B715A01003C6DDF /* ScannedItemView.swift */; };
+		C41308882B7AEF2300E061D5 /* SimpleWeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41308872B7AEF2300E061D5 /* SimpleWeeklyChart.swift */; };
+		C413088A2B7AEF3100E061D5 /* SimpleMonthlyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41308892B7AEF3100E061D5 /* SimpleMonthlyChart.swift */; };
+		C413088D2B7AF35B00E061D5 /* DetailMonthlyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413088C2B7AF35B00E061D5 /* DetailMonthlyChart.swift */; };
+		C413088F2B7AF3B800E061D5 /* DetailWeeklyChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = C413088E2B7AF3B800E061D5 /* DetailWeeklyChart.swift */; };
+		C41736802B71B5DC0025CC03 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C417367F2B71B5DC0025CC03 /* HomeView.swift */; };
+		C41736822B71B5F20025CC03 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41736812B71B5F20025CC03 /* WelcomeView.swift */; };
+		C41D65742B77F9F10029A6AE /* LogFoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D65732B77F9F10029A6AE /* LogFoodView.swift */; };
+		C41D65762B77FF460029A6AE /* DetailChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D65752B77FF460029A6AE /* DetailChartView.swift */; };
+		C41D65782B78055A0029A6AE /* NutrientCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D65772B78055A0029A6AE /* NutrientCalculator.swift */; };
+		C41D657A2B7820700029A6AE /* ManualLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41D65792B7820700029A6AE /* ManualLogView.swift */; };
+		C42C7DFD2B78858B005403A1 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42C7DFC2B78858B005403A1 /* SettingsView.swift */; };
+		C45112B72B785F2A005B1F5B /* BrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45112B62B785F2A005B1F5B /* BrowseView.swift */; };
+		C45ADA242B69E277001C34F9 /* NutriScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45ADA232B69E277001C34F9 /* NutriScanApp.swift */; };
+		C45ADA262B69E277001C34F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45ADA252B69E277001C34F9 /* ContentView.swift */; };
+		C45ADA282B69E277001C34F9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45ADA272B69E277001C34F9 /* Item.swift */; };
+		C45ADA2A2B69E279001C34F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45ADA292B69E279001C34F9 /* Assets.xcassets */; };
+		C45ADA2D2B69E279001C34F9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C45ADA2C2B69E279001C34F9 /* Preview Assets.xcassets */; };
+		C47A29622B70838C002AD677 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A29612B70838C002AD677 /* APIManager.swift */; };
+		C47A29672B7088CC002AD677 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = C47A29662B7088CC002AD677 /* Alamofire */; };
+		C47A29692B708B97002AD677 /* NutritionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47A29682B708B97002AD677 /* NutritionModel.swift */; };
+		C48CC2A82B7AB6DB00605D37 /* SimpleDailyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C48CC2A72B7AB6DB00605D37 /* SimpleDailyChartView.swift */; };
+		C4BC54752B6EF30000A435AC /* Geist-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C4BC54742B6EF30000A435AC /* Geist-Regular.otf */; };
+		C4BC547D2B6EFC5100A435AC /* BarCodeScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC547C2B6EFC5100A435AC /* BarCodeScannerView.swift */; };
+		C4BC54812B6F1B6400A435AC /* ScannerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC54802B6F1B6400A435AC /* ScannerViewModel.swift */; };
+		C4BC54852B6F1E6B00A435AC /* DataScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BC54842B6F1E6B00A435AC /* DataScannerView.swift */; };
+		C4D58E252B6EEDDB00E12C8B /* Colours.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D58E242B6EEDDB00E12C8B /* Colours.xcassets */; };
+		C4FEC19E2B7A9C02009DFEAD /* DailyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC19D2B7A9C02009DFEAD /* DailyChartView.swift */; };
+		C4FEC1A02B7A9D6B009DFEAD /* WeeklyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC19F2B7A9D6B009DFEAD /* WeeklyChartView.swift */; };
+		C4FEC1A22B7A9D77009DFEAD /* MonthlyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC1A12B7A9D77009DFEAD /* MonthlyChartView.swift */; };
+		C4FEC1A62B7A9E1E009DFEAD /* NutritionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC1A52B7A9E1E009DFEAD /* NutritionSummaryView.swift */; };
+		C4FEC1A82B7A9E44009DFEAD /* NutritionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC1A72B7A9E44009DFEAD /* NutritionViewModel.swift */; };
+		C4FEC1AA2B7AB457009DFEAD /* DetailDailyChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEC1A92B7AB457009DFEAD /* DetailDailyChartView.swift */; };
+		C4FEE6122B79B6D7004477F0 /* KeyboardKit in Frameworks */ = {isa = PBXBuildFile; productRef = C4FEE6112B79B6D7004477F0 /* KeyboardKit */; };
+		C4FEE6142B79BB04004477F0 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEE6132B79BB04004477F0 /* Defaults.swift */; };
+		C4FEE6162B79C58B004477F0 /* ThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEE6152B79C58B004477F0 /* ThemeSelectionView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C405643F2B76E0AF002A2BFC /* NutriScan.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriScan.entitlements; sourceTree = "<group>"; };
+		C40564402B76E18A002A2BFC /* HealthKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManager.swift; sourceTree = "<group>"; };
+		C40564422B76E574002A2BFC /* SummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		C40564472B76ECE3002A2BFC /* RingShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingShape.swift; sourceTree = "<group>"; };
+		C40564492B76EE3E002A2BFC /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		C41270522B715A01003C6DDF /* ScannedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedItemView.swift; sourceTree = "<group>"; };
+		C41308872B7AEF2300E061D5 /* SimpleWeeklyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleWeeklyChart.swift; sourceTree = "<group>"; };
+		C41308892B7AEF3100E061D5 /* SimpleMonthlyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMonthlyChart.swift; sourceTree = "<group>"; };
+		C413088C2B7AF35B00E061D5 /* DetailMonthlyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMonthlyChart.swift; sourceTree = "<group>"; };
+		C413088E2B7AF3B800E061D5 /* DetailWeeklyChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWeeklyChart.swift; sourceTree = "<group>"; };
+		C417367E2B71B5C80025CC03 /* GeistVariableVF.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeistVariableVF.ttf; sourceTree = "<group>"; };
+		C417367F2B71B5DC0025CC03 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		C41736812B71B5F20025CC03 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		C41D65732B77F9F10029A6AE /* LogFoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogFoodView.swift; sourceTree = "<group>"; };
+		C41D65752B77FF460029A6AE /* DetailChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailChartView.swift; sourceTree = "<group>"; };
+		C41D65772B78055A0029A6AE /* NutrientCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutrientCalculator.swift; sourceTree = "<group>"; };
+		C41D65792B7820700029A6AE /* ManualLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualLogView.swift; sourceTree = "<group>"; };
+		C42C7DFC2B78858B005403A1 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C45112B62B785F2A005B1F5B /* BrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseView.swift; sourceTree = "<group>"; };
+		C45ADA202B69E277001C34F9 /* NutriScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45ADA232B69E277001C34F9 /* NutriScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriScanApp.swift; sourceTree = "<group>"; };
+		C45ADA252B69E277001C34F9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C45ADA272B69E277001C34F9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		C45ADA292B69E279001C34F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C45ADA2C2B69E279001C34F9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C47A29612B70838C002AD677 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C47A29682B708B97002AD677 /* NutritionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionModel.swift; sourceTree = "<group>"; };
+		C48CC2A72B7AB6DB00605D37 /* SimpleDailyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDailyChartView.swift; sourceTree = "<group>"; };
+		C4BC54742B6EF30000A435AC /* Geist-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geist-Regular.otf"; sourceTree = "<group>"; };
+		C4BC547C2B6EFC5100A435AC /* BarCodeScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarCodeScannerView.swift; sourceTree = "<group>"; };
+		C4BC54802B6F1B6400A435AC /* ScannerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerViewModel.swift; sourceTree = "<group>"; };
+		C4BC54842B6F1E6B00A435AC /* DataScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataScannerView.swift; sourceTree = "<group>"; };
+		C4D58E242B6EEDDB00E12C8B /* Colours.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colours.xcassets; sourceTree = "<group>"; };
+		C4D58E2C2B6EF08800E12C8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		C4FEC19D2B7A9C02009DFEAD /* DailyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChartView.swift; sourceTree = "<group>"; };
+		C4FEC19F2B7A9D6B009DFEAD /* WeeklyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyChartView.swift; sourceTree = "<group>"; };
+		C4FEC1A12B7A9D77009DFEAD /* MonthlyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthlyChartView.swift; sourceTree = "<group>"; };
+		C4FEC1A52B7A9E1E009DFEAD /* NutritionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionSummaryView.swift; sourceTree = "<group>"; };
+		C4FEC1A72B7A9E44009DFEAD /* NutritionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionViewModel.swift; sourceTree = "<group>"; };
+		C4FEC1A92B7AB457009DFEAD /* DetailDailyChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDailyChartView.swift; sourceTree = "<group>"; };
+		C4FEE6132B79BB04004477F0 /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		C4FEE6152B79C58B004477F0 /* ThemeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSelectionView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C45ADA1D2B69E277001C34F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4FEE6122B79B6D7004477F0 /* KeyboardKit in Frameworks */,
+				C47A29672B7088CC002AD677 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C40564462B76ECB3002A2BFC /* UI Components */ = {
+			isa = PBXGroup;
+			children = (
+				C40564472B76ECE3002A2BFC /* RingShape.swift */,
+				C40564492B76EE3E002A2BFC /* RingView.swift */,
+				C41D65772B78055A0029A6AE /* NutrientCalculator.swift */,
+				C4BC54842B6F1E6B00A435AC /* DataScannerView.swift */,
+				C4FEE6152B79C58B004477F0 /* ThemeSelectionView.swift */,
+			);
+			path = "UI Components";
+			sourceTree = "<group>";
+		};
+		C41308862B7AEF0900E061D5 /* SimpleCharts */ = {
+			isa = PBXGroup;
+			children = (
+				C48CC2A72B7AB6DB00605D37 /* SimpleDailyChartView.swift */,
+				C41308872B7AEF2300E061D5 /* SimpleWeeklyChart.swift */,
+				C41308892B7AEF3100E061D5 /* SimpleMonthlyChart.swift */,
+			);
+			path = SimpleCharts;
+			sourceTree = "<group>";
+		};
+		C413088B2B7AEF4500E061D5 /* DetailChart */ = {
+			isa = PBXGroup;
+			children = (
+				C41D65752B77FF460029A6AE /* DetailChartView.swift */,
+				C4FEC1A92B7AB457009DFEAD /* DetailDailyChartView.swift */,
+				C413088C2B7AF35B00E061D5 /* DetailMonthlyChart.swift */,
+				C413088E2B7AF3B800E061D5 /* DetailWeeklyChart.swift */,
+			);
+			path = DetailChart;
+			sourceTree = "<group>";
+		};
+		C41736792B71B56A0025CC03 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C4BC54802B6F1B6400A435AC /* ScannerViewModel.swift */,
+				C4FEC1A72B7A9E44009DFEAD /* NutritionViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		C417367C2B71B58E0025CC03 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C47A29612B70838C002AD677 /* APIManager.swift */,
+				C40564402B76E18A002A2BFC /* HealthKitManager.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C417367D2B71B5BC0025CC03 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				C45ADA292B69E279001C34F9 /* Assets.xcassets */,
+				C4D58E242B6EEDDB00E12C8B /* Colours.xcassets */,
+				C4BC54742B6EF30000A435AC /* Geist-Regular.otf */,
+				C417367E2B71B5C80025CC03 /* GeistVariableVF.ttf */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		C45ADA172B69E277001C34F9 = {
+			isa = PBXGroup;
+			children = (
+				C45ADA222B69E277001C34F9 /* NutriScan */,
+				C45ADA212B69E277001C34F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C45ADA212B69E277001C34F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C45ADA202B69E277001C34F9 /* NutriScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C45ADA222B69E277001C34F9 /* NutriScan */ = {
+			isa = PBXGroup;
+			children = (
+				C405643F2B76E0AF002A2BFC /* NutriScan.entitlements */,
+				C417367D2B71B5BC0025CC03 /* Assets */,
+				C417367C2B71B58E0025CC03 /* Utilities */,
+				C41736792B71B56A0025CC03 /* ViewModel */,
+				C4D58E2C2B6EF08800E12C8B /* Info.plist */,
+				C4D58E232B6EEDB900E12C8B /* View */,
+				C4D58E222B6EEDB100E12C8B /* Model */,
+				C45ADA232B69E277001C34F9 /* NutriScanApp.swift */,
+				C45ADA252B69E277001C34F9 /* ContentView.swift */,
+				C45ADA2B2B69E279001C34F9 /* Preview Content */,
+			);
+			path = NutriScan;
+			sourceTree = "<group>";
+		};
+		C45ADA2B2B69E279001C34F9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C45ADA2C2B69E279001C34F9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C4D58E222B6EEDB100E12C8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C45ADA272B69E277001C34F9 /* Item.swift */,
+				C47A29682B708B97002AD677 /* NutritionModel.swift */,
+				C4FEE6132B79BB04004477F0 /* Defaults.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C4D58E232B6EEDB900E12C8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4FEC19C2B7A95CD009DFEAD /* Charts */,
+				C40564462B76ECB3002A2BFC /* UI Components */,
+				C4BC547C2B6EFC5100A435AC /* BarCodeScannerView.swift */,
+				C41270522B715A01003C6DDF /* ScannedItemView.swift */,
+				C417367F2B71B5DC0025CC03 /* HomeView.swift */,
+				C41736812B71B5F20025CC03 /* WelcomeView.swift */,
+				C40564422B76E574002A2BFC /* SummaryView.swift */,
+				C41D65732B77F9F10029A6AE /* LogFoodView.swift */,
+				C41D65792B7820700029A6AE /* ManualLogView.swift */,
+				C45112B62B785F2A005B1F5B /* BrowseView.swift */,
+				C42C7DFC2B78858B005403A1 /* SettingsView.swift */,
+				C4FEC1A52B7A9E1E009DFEAD /* NutritionSummaryView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C4FEC19C2B7A95CD009DFEAD /* Charts */ = {
+			isa = PBXGroup;
+			children = (
+				C413088B2B7AEF4500E061D5 /* DetailChart */,
+				C41308862B7AEF0900E061D5 /* SimpleCharts */,
+				C4FEC19D2B7A9C02009DFEAD /* DailyChartView.swift */,
+				C4FEC19F2B7A9D6B009DFEAD /* WeeklyChartView.swift */,
+				C4FEC1A12B7A9D77009DFEAD /* MonthlyChartView.swift */,
+			);
+			path = Charts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C45ADA1F2B69E277001C34F9 /* NutriScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C45ADA462B69E27A001C34F9 /* Build configuration list for PBXNativeTarget "NutriScan" */;
+			buildPhases = (
+				C45ADA1C2B69E277001C34F9 /* Sources */,
+				C45ADA1D2B69E277001C34F9 /* Frameworks */,
+				C45ADA1E2B69E277001C34F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NutriScan;
+			packageProductDependencies = (
+				C47A29662B7088CC002AD677 /* Alamofire */,
+				C4FEE6112B79B6D7004477F0 /* KeyboardKit */,
+			);
+			productName = NutriScan;
+			productReference = C45ADA202B69E277001C34F9 /* NutriScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C45ADA182B69E277001C34F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					C45ADA1F2B69E277001C34F9 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = C45ADA1B2B69E277001C34F9 /* Build configuration list for PBXProject "NutriScan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C45ADA172B69E277001C34F9;
+			packageReferences = (
+				C47A29652B7088CC002AD677 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				C4FEE6102B79B6D7004477F0 /* XCRemoteSwiftPackageReference "KeyboardKit" */,
+			);
+			productRefGroup = C45ADA212B69E277001C34F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C45ADA1F2B69E277001C34F9 /* NutriScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C45ADA1E2B69E277001C34F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C45ADA2D2B69E279001C34F9 /* Preview Assets.xcassets in Resources */,
+				C4D58E252B6EEDDB00E12C8B /* Colours.xcassets in Resources */,
+				C45ADA2A2B69E279001C34F9 /* Assets.xcassets in Resources */,
+				C4BC54752B6EF30000A435AC /* Geist-Regular.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C45ADA1C2B69E277001C34F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C41270532B715A01003C6DDF /* ScannedItemView.swift in Sources */,
+				C4FEC19E2B7A9C02009DFEAD /* DailyChartView.swift in Sources */,
+				C4FEC1A22B7A9D77009DFEAD /* MonthlyChartView.swift in Sources */,
+				C4FEC1A82B7A9E44009DFEAD /* NutritionViewModel.swift in Sources */,
+				C42C7DFD2B78858B005403A1 /* SettingsView.swift in Sources */,
+				C40564432B76E574002A2BFC /* SummaryView.swift in Sources */,
+				C47A29622B70838C002AD677 /* APIManager.swift in Sources */,
+				C45ADA262B69E277001C34F9 /* ContentView.swift in Sources */,
+				C413088F2B7AF3B800E061D5 /* DetailWeeklyChart.swift in Sources */,
+				C4BC54812B6F1B6400A435AC /* ScannerViewModel.swift in Sources */,
+				C4FEC1A62B7A9E1E009DFEAD /* NutritionSummaryView.swift in Sources */,
+				C4BC547D2B6EFC5100A435AC /* BarCodeScannerView.swift in Sources */,
+				C405644A2B76EE3E002A2BFC /* RingView.swift in Sources */,
+				C4FEE6142B79BB04004477F0 /* Defaults.swift in Sources */,
+				C41736802B71B5DC0025CC03 /* HomeView.swift in Sources */,
+				C413088A2B7AEF3100E061D5 /* SimpleMonthlyChart.swift in Sources */,
+				C45ADA282B69E277001C34F9 /* Item.swift in Sources */,
+				C41736822B71B5F20025CC03 /* WelcomeView.swift in Sources */,
+				C41D65742B77F9F10029A6AE /* LogFoodView.swift in Sources */,
+				C47A29692B708B97002AD677 /* NutritionModel.swift in Sources */,
+				C48CC2A82B7AB6DB00605D37 /* SimpleDailyChartView.swift in Sources */,
+				C4FEE6162B79C58B004477F0 /* ThemeSelectionView.swift in Sources */,
+				C40564482B76ECE3002A2BFC /* RingShape.swift in Sources */,
+				C45ADA242B69E277001C34F9 /* NutriScanApp.swift in Sources */,
+				C41D657A2B7820700029A6AE /* ManualLogView.swift in Sources */,
+				C4FEC1AA2B7AB457009DFEAD /* DetailDailyChartView.swift in Sources */,
+				C41D65762B77FF460029A6AE /* DetailChartView.swift in Sources */,
+				C40564412B76E18A002A2BFC /* HealthKitManager.swift in Sources */,
+				C413088D2B7AF35B00E061D5 /* DetailMonthlyChart.swift in Sources */,
+				C45112B72B785F2A005B1F5B /* BrowseView.swift in Sources */,
+				C4FEC1A02B7A9D6B009DFEAD /* WeeklyChartView.swift in Sources */,
+				C4BC54852B6F1E6B00A435AC /* DataScannerView.swift in Sources */,
+				C41D65782B78055A0029A6AE /* NutrientCalculator.swift in Sources */,
+				C41308882B7AEF2300E061D5 /* SimpleWeeklyChart.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C45ADA442B69E27A001C34F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C45ADA452B69E27A001C34F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C45ADA472B69E27A001C34F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriScan/NutriScan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriScan/Preview Content\"";
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NutriScan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan barcodes";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Nutriscan uses health data to track nutrients";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Nutriscan uses health data to track nutrients";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriScan Uses Health Data for tracking nutrients";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryzjx.NutriScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C45ADA482B69E27A001C34F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriScan/NutriScan.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"NutriScan/Preview Content\"";
+				DEVELOPMENT_TEAM = MR3H259R5X;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NutriScan/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Your camera is used to scan barcodes";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Nutriscan uses health data to track nutrients";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Nutriscan uses health data to track nutrients";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "NutriScan Uses Health Data for tracking nutrients";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jerryzjx.NutriScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C45ADA1B2B69E277001C34F9 /* Build configuration list for PBXProject "NutriScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45ADA442B69E27A001C34F9 /* Debug */,
+				C45ADA452B69E27A001C34F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C45ADA462B69E27A001C34F9 /* Build configuration list for PBXNativeTarget "NutriScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C45ADA472B69E27A001C34F9 /* Debug */,
+				C45ADA482B69E27A001C34F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C47A29652B7088CC002AD677 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		C4FEE6102B79B6D7004477F0 /* XCRemoteSwiftPackageReference "KeyboardKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/KeyboardKit/KeyboardKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C47A29662B7088CC002AD677 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C47A29652B7088CC002AD677 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C4FEE6112B79B6D7004477F0 /* KeyboardKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C4FEE6102B79B6D7004477F0 /* XCRemoteSwiftPackageReference "KeyboardKit" */;
+			productName = KeyboardKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C45ADA182B69E277001C34F9 /* Project object */;
+}
